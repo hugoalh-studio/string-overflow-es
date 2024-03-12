@@ -1,12 +1,12 @@
 // This file is only for JSR related, non-JSR related must set in the file `deno.jsonc`!
 {
 	"name": "@hugoalh/string-overflow",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"exports": {
 		".": "./mod.ts"
 	},
 	"imports": {
-		"https://raw.githubusercontent.com/hugoalh-studio/string-dissect-ts/v1.0.0/mod.ts": "jsr:@hugoalh/string-dissect@1.0.0"
+		"https://raw.githubusercontent.com/hugoalh-studio/string-dissect-ts/v1.0.2/mod.ts": "jsr:@hugoalh/string-dissect@1.0.2"
 	},
 	"publish": {
 		"exclude": [
