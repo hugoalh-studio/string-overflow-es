@@ -1,14 +1,19 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: "1.2.0"
-title: "String Overflow (TypeScript)"
+title: "String Overflow (ES)"
 message: "If you use this software, please cite it using the metadata from this file."
 type: "software"
 authors:
   - name: "hugoalh Studio"
-repository-code: "https://github.com/hugoalh-studio/string-overflow-ts"
+repository-code: "https://github.com/hugoalh-studio/string-overflow-es"
 keywords:
+  - "es"
+  - "javascript"
+  - "js"
+  - "modulejs"
   - "overflow"
   - "string"
+  - "truncate"
   - "ts"
   - "typescript"
 license: "MIT"
