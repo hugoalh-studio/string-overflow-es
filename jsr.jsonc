@@ -1,12 +1,12 @@
-// This file is only for JSR related, non-JSR related must set in the file `deno.jsonc`!
 {
+	"$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
 	"name": "@hugoalh/string-overflow",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"exports": {
 		".": "./mod.ts"
 	},
 	"imports": {
-		"https://raw.githubusercontent.com/hugoalh-studio/string-dissect-es/v3.0.0/mod.ts": "jsr:@hugoalh/string-dissect@3.0.0"
+		"https://raw.githubusercontent.com/hugoalh-studio/string-dissect-es/v3.0.1/mod.ts": "jsr:@hugoalh/string-dissect@3.0.1"
 	},
 	"publish": {
 		"exclude": [
@@ -26,6 +26,7 @@
 			"npm/**"
 		],
 		"include": [
+			"**/*.json",
 			"**/*.ts",
 			"**/*.tsx",
 			"jsr.jsonc",

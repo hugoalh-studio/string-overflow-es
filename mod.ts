@@ -1,4 +1,4 @@
-import { StringDissector, type StringDissectorOptions, type StringSegmentDescriptor } from "https://raw.githubusercontent.com/hugoalh-studio/string-dissect-es/v3.0.0/mod.ts";
+import { StringDissector, type StringDissectorOptions, type StringSegmentDescriptor } from "https://raw.githubusercontent.com/hugoalh-studio/string-dissect-es/v3.0.1/mod.ts";
 /**
  * Enum of the string truncate ellipsis position.
  */
